@@ -6,17 +6,44 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BFEE5B372D262E4800DC34AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEE5B312D262E4800DC34AC /* Preview Assets.xcassets */; };
+		BFEE5B382D262E4800DC34AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEE5B342D262E4800DC34AC /* Assets.xcassets */; };
+		BFEE5B392D262E4800DC34AC /* AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B332D262E4800DC34AC /* AnimationApp.swift */; };
+		BFEE5B3A2D262E4800DC34AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B352D262E4800DC34AC /* ContentView.swift */; };
+		BFEE5B3C2D262FF000DC34AC /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B3B2D262FF000DC34AC /* SpringAnimation.swift */; };
+		BFEE5B3E2D2630A700DC34AC /* BindingWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B3D2D2630A700DC34AC /* BindingWithAnimation.swift */; };
+		BFEE5B402D26326000DC34AC /* DelayAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B3F2D26326000DC34AC /* DelayAnimation.swift */; };
+		BFEE5B422D26336B00DC34AC /* OnAppearAnimationWithExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B412D26336B00DC34AC /* OnAppearAnimationWithExtension.swift */; };
+		BFEE5B442D26352500DC34AC /* MultipleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B432D26352500DC34AC /* MultipleAnimation.swift */; };
+		BFEE5B462D263AAA00DC34AC /* MatchGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B452D263AAA00DC34AC /* MatchGeometryEffect.swift */; };
+		BFEE5B482D263FC300DC34AC /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B472D263FC300DC34AC /* TransitionAnimation.swift */; };
+		BFEE5B4A2D2640A600DC34AC /* CombineTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B492D2640A600DC34AC /* CombineTransition.swift */; };
+		BFEE5B4C2D2642CB00DC34AC /* AsymmetricTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B4B2D2642CB00DC34AC /* AsymmetricTransition.swift */; };
+		BFEE5B4E2D26444C00DC34AC /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B4D2D26444C00DC34AC /* CustomTransition.swift */; };
+		BFEE5B502D26456E00DC34AC /* AnimateFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B4F2D26456E00DC34AC /* AnimateFontSize.swift */; };
+		BFEE5B522D264A1900DC34AC /* PhaseAnimatorExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE5B512D264A1900DC34AC /* PhaseAnimatorExamples.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BFEE5B202D262E3B00DC34AC /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEE5B312D262E4800DC34AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFEE5B332D262E4800DC34AC /* AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationApp.swift; sourceTree = "<group>"; };
+		BFEE5B342D262E4800DC34AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFEE5B352D262E4800DC34AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFEE5B3B2D262FF000DC34AC /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		BFEE5B3D2D2630A700DC34AC /* BindingWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithAnimation.swift; sourceTree = "<group>"; };
+		BFEE5B3F2D26326000DC34AC /* DelayAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimation.swift; sourceTree = "<group>"; };
+		BFEE5B412D26336B00DC34AC /* OnAppearAnimationWithExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearAnimationWithExtension.swift; sourceTree = "<group>"; };
+		BFEE5B432D26352500DC34AC /* MultipleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAnimation.swift; sourceTree = "<group>"; };
+		BFEE5B452D263AAA00DC34AC /* MatchGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeometryEffect.swift; sourceTree = "<group>"; };
+		BFEE5B472D263FC300DC34AC /* TransitionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
+		BFEE5B492D2640A600DC34AC /* CombineTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTransition.swift; sourceTree = "<group>"; };
+		BFEE5B4B2D2642CB00DC34AC /* AsymmetricTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricTransition.swift; sourceTree = "<group>"; };
+		BFEE5B4D2D26444C00DC34AC /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
+		BFEE5B4F2D26456E00DC34AC /* AnimateFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateFontSize.swift; sourceTree = "<group>"; };
+		BFEE5B512D264A1900DC34AC /* PhaseAnimatorExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimatorExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BFEE5B222D262E3B00DC34AC /* Animation */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Animation;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFEE5B1D2D262E3B00DC34AC /* Frameworks */ = {
@@ -32,7 +59,7 @@
 		BFEE5B172D262E3B00DC34AC = {
 			isa = PBXGroup;
 			children = (
-				BFEE5B222D262E3B00DC34AC /* Animation */,
+				BFEE5B362D262E4800DC34AC /* Animation */,
 				BFEE5B212D262E3B00DC34AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +70,37 @@
 				BFEE5B202D262E3B00DC34AC /* Animation.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BFEE5B322D262E4800DC34AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE5B312D262E4800DC34AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFEE5B362D262E4800DC34AC /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE5B332D262E4800DC34AC /* AnimationApp.swift */,
+				BFEE5B352D262E4800DC34AC /* ContentView.swift */,
+				BFEE5B3B2D262FF000DC34AC /* SpringAnimation.swift */,
+				BFEE5B3D2D2630A700DC34AC /* BindingWithAnimation.swift */,
+				BFEE5B3F2D26326000DC34AC /* DelayAnimation.swift */,
+				BFEE5B412D26336B00DC34AC /* OnAppearAnimationWithExtension.swift */,
+				BFEE5B432D26352500DC34AC /* MultipleAnimation.swift */,
+				BFEE5B452D263AAA00DC34AC /* MatchGeometryEffect.swift */,
+				BFEE5B472D263FC300DC34AC /* TransitionAnimation.swift */,
+				BFEE5B492D2640A600DC34AC /* CombineTransition.swift */,
+				BFEE5B4B2D2642CB00DC34AC /* AsymmetricTransition.swift */,
+				BFEE5B4D2D26444C00DC34AC /* CustomTransition.swift */,
+				BFEE5B4F2D26456E00DC34AC /* AnimateFontSize.swift */,
+				BFEE5B512D264A1900DC34AC /* PhaseAnimatorExamples.swift */,
+				BFEE5B342D262E4800DC34AC /* Assets.xcassets */,
+				BFEE5B322D262E4800DC34AC /* Preview Content */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +117,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BFEE5B222D262E3B00DC34AC /* Animation */,
 			);
 			name = Animation;
 			packageProductDependencies = (
@@ -109,6 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEE5B372D262E4800DC34AC /* Preview Assets.xcassets in Resources */,
+				BFEE5B382D262E4800DC34AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +176,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEE5B4C2D2642CB00DC34AC /* AsymmetricTransition.swift in Sources */,
+				BFEE5B3E2D2630A700DC34AC /* BindingWithAnimation.swift in Sources */,
+				BFEE5B402D26326000DC34AC /* DelayAnimation.swift in Sources */,
+				BFEE5B4A2D2640A600DC34AC /* CombineTransition.swift in Sources */,
+				BFEE5B482D263FC300DC34AC /* TransitionAnimation.swift in Sources */,
+				BFEE5B462D263AAA00DC34AC /* MatchGeometryEffect.swift in Sources */,
+				BFEE5B422D26336B00DC34AC /* OnAppearAnimationWithExtension.swift in Sources */,
+				BFEE5B4E2D26444C00DC34AC /* CustomTransition.swift in Sources */,
+				BFEE5B3C2D262FF000DC34AC /* SpringAnimation.swift in Sources */,
+				BFEE5B442D26352500DC34AC /* MultipleAnimation.swift in Sources */,
+				BFEE5B392D262E4800DC34AC /* AnimationApp.swift in Sources */,
+				BFEE5B522D264A1900DC34AC /* PhaseAnimatorExamples.swift in Sources */,
+				BFEE5B3A2D262E4800DC34AC /* ContentView.swift in Sources */,
+				BFEE5B502D26456E00DC34AC /* AnimateFontSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
